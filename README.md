@@ -1,49 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Your Name • CV</title>
-</head>
-<body>
-    <header>
-        <h1>AUSTIN MAHUBANE</h1>
-        <p>My CV Website</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a student at university of Limpopo, first level. Studying computer science..</p>
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <p>Education:
+<header>
+    <h1>AUSTIN MAHUBANE</h1>
+    <p>My CV Website</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="skills.html">Skills</a></li>
+    </ul>
+</nav>
 
-- Bachelor of Science in Mathematical Sciences, University of Limpopo, 2024 (Expected Graduation)
+
+about.html
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a student at the University of Limpopo, studying computer science.</p>
+</section>
+
+
+education.html
+
+<section id="education">
+    <h2>Education</h2>
+    <p>_Education:_
+
+- _Bachelor of Science in Mathematical Sciences_, _University of Limpopo_, _2024_ (Expected Graduation)
     - Current Status: First-year student
     - Relevant Coursework: Calculus, Linear Algebra, Statistics, and Discrete Mathematics
-    - Academic Goals: Pursuing a degree in Mathematical Sciences to develop strong analytical and problem-solving skills, with a focus on applied mathematics and data analysis..</p>
-    </section>
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <p>Volunteer Experience:_
+    - Academic Goals: Pursuing a degree in Mathematical Sciences to develop strong analytical and problem-solving skills, with a focus on applied mathematics and data analysis.</p>
+</section>
 
-- Community Volunteer, Local Community Center (2020-2022)
+
+experience.html
+
+<section id="experience">
+    <h2>Work Experience</h2>
+    <p>Volunteer Experience:_
+
+- _Community Volunteer_, Local Community Center (2018-2023)
     - Assisted with:
-        - Event planning and management (e.g., fundraisers, food drives)
-..</p>
-    </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Technical Skills:
+        - Event planning and management </p>
+</section>
+
+
+skills.html
+
+<section id="skills">
+    <h2>Skills</h2>
+    <p>Technical Skills:
 
 - Programming languages: c++, html, python
 - Data analysis software: Excel, SPSS, SPSS Statistics
@@ -56,11 +62,12 @@ Soft Skills:
 - Effective communication and presentation
 - Problem-solving and analytical thinking
 - Time management and organization
-- Leadership and initiative".</p>
-    </section>
-    <footer>
-        <p>Contact: mahubaneaustin8@gmail.com</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+- Leadership and initiative"</p>
+</section>
+
+
+
+```
+<footer>
+    <p>Contact: mahubaneaustin8@gmail.com</p>
+</footer>
